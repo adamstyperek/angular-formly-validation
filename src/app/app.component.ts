@@ -26,9 +26,9 @@ export class AppComponent {
           {
             name: 'fieldMatch',
             options: {
-              errorPath: 'second-passwordConfirm',
-              password: 'second-password',
-              confirm: 'second-passwordConfirm',
+              errorPath: 'secondPasswordConfirm',
+              password: 'secondPassword',
+              confirm: 'secondPasswordConfirm',
             },
           },
         ],
@@ -56,7 +56,7 @@ export class AppComponent {
           },
         },
         {
-          key: 'second-password',
+          key: 'secondPassword',
           type: 'input',
           props: {
             type: 'password',
@@ -67,7 +67,7 @@ export class AppComponent {
           },
         },
         {
-          key: 'second-passwordConfirm',
+          key: 'secondPasswordConfirm',
           type: 'input',
           props: {
             type: 'password',
