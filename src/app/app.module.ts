@@ -19,8 +19,6 @@ export function fieldMatchValidator(
 ) {
   const password = get(control.value, options.password);
   const passwordConfirm = get(control.value, options.confirm);
-  console.log('PASS: ', password, 'CONF: ', passwordConfirm);
-  // const { password, passwordConfirm } = control.value;
 
   // avoid displaying the message error when values are empty
   if (!passwordConfirm || !password) {
